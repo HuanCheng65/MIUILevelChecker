@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">DeviceLevelChecker</string>
+    <string name="xposed_description">模块激活后，可以为您强行开启 MIUI 12.5 的完整动画</string>
+    <string name="title_device_info">设备信息</string>
+    <string name="status_title_full">完整支持</string>
+    <string name="status_title_basic">部分支持</string>
+    <string name="status_title_none">不支持</string>
+    <string name="status_title_unknown">未知</string>
+    <string name="status_text_full">您的设备支持 MIUI 12.5 完整动画</string>
+    <string name="status_text_basic">您的设备只支持 MIUI 12.5 部分动画</string>
+    <string name="status_text_none">您的设备不支持 MIUI 12.5 的动画</string>
+    <string name="status_text_unknown">无法获取您的设备等级</string>
+    <string name="level_text_high_end">高端</string>
+    <string name="level_text_middle">中端</string>
+    <string name="level_text_primary">低端</string>
+    <string name="level_text_unknown">未知</string>
+    <string name="miui_lite_yes">MIUI “精简版”</string>
+    <string name="miui_lite_no">非 MIUI “精简版”</string>
+    <string name="title_miui_level_info">MIUI 机型分级</string>
+    <string name="title_xposed_module_enabled">Xposed 模块已启用</string>
+    <string name="title_xposed_module_actived_not_enabled">Xposed 模块已激活，但未启用</string>
+    <string name="title_xposed_module_not_actived">Xposed 模块未激活</string>
+    <string name="title_dialog_whats_this">这是什么？</string>
+    <string name="text_xposed_module_enabled"><![CDATA[已为您强行开启 MIUI 12.5 的完整动画。<br /><strong>注意：由于设备性能限制，部分动画可能会导致卡顿。</strong>]]></string>
+    <string name="text_xposed_module_not_enabled"><![CDATA[模块启用后，可以为您强行开启 MIUI 12.5 的完整动画。<br />轻按此处可跳转至 Xposed 管理器以启用模块。<br /><strong>注意：由于设备性能限制，部分动画可能会导致卡顿。</strong>]]></string>
+    <string name="btn_ok">OK</string>
+    <string name="text_dialog_miui_lite_help">MIUI 可能会将部分机型标记为 \"Lite\" 版（此处译为“精简版”），被标记为精简版的设备无论性能如何都会被认为是“低端”设备，禁用绝大多数动画。</string>
+    <string name="text_ram_info">%dGB 运行内存</string>
+    <string name="title_dialog_not_miui">您似乎没有使用 MIUI 系统</string>
+    <string name="text_dialog_not_miui">本软件的检测结果仅适用于正在使用 MIUI 系统的手机。</string>
+</resources>

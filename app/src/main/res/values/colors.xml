@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="blue_A200">#448AFF</color>
+    <color name="blue_A700">#2962FF</color>
+    <color name="green_400">#66BB6A</color>
+    <color name="red_A400">#FF1744</color>
+    <color name="yellow_A700">#FFD600</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="ic_launcher_background">@color/blue_A200</color>
+</resources>
