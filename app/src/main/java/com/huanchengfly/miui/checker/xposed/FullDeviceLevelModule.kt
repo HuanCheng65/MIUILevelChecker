@@ -11,7 +11,7 @@ class FullDeviceLevelModule : IXposedHookLoadPackage {
         if (SELF_PACKAGE_NAME == packageParam.packageName) {
             val clazz =
                 XposedHelpers.findClassIfExists(
-                    "com.miui.fuck.utils.XposedUtil",
+                    "$SELF_PACKAGE_NAME.utils.XposedUtil",
                     packageParam.classLoader
                 ) ?: return
             XposedHelpers.findAndHookMethod(
@@ -34,7 +34,7 @@ class FullDeviceLevelModule : IXposedHookLoadPackage {
     }
 
     companion object {
-        const val SELF_PACKAGE_NAME = "com.miui.fuck"
+        const val SELF_PACKAGE_NAME = "com.huanchengfly.miui.checker"
         const val MIUIX_DEVICE_UTILS_CLASS_NAME = "miuix.animation.utils.DeviceUtils"
     }
 }
