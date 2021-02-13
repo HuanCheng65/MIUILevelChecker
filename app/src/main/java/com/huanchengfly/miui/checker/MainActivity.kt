@@ -1,14 +1,19 @@
 package com.huanchengfly.miui.checker
 
+import android.annotation.SuppressLint
 import android.os.Build
 import android.os.Bundle
 import android.text.Html
+import android.view.Menu
+import android.view.MenuItem
 import android.view.View
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import com.huanchengfly.miui.checker.databinding.ActivityMainBinding
+import com.huanchengfly.miui.checker.databinding.DialogAboutBinding
 import com.huanchengfly.miui.checker.utils.DeviceUtil
 import com.huanchengfly.miui.checker.utils.OSUtil
+import com.huanchengfly.miui.checker.utils.VersionUtil
 import com.huanchengfly.miui.checker.utils.XposedUtil
 
 class MainActivity : AppCompatActivity() {
@@ -94,5 +99,25 @@ class MainActivity : AppCompatActivity() {
                 startApp(XposedUtil.getInstalledManagerPackageName(this)!!)
             }
         }
+    }
+
+    override fun onCreateOptionsMenu(menu: Menu): Boolean {
+        menuInflater.inflate(R.menu.menu_main, menu)
+        return true
+    }
+
+    @SuppressLint("SetTextI18n")
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        if (item.itemId == R.id.menu_about) {
+            val dialogViewBinding = DialogAboutBinding.inflate(layoutInflater)
+            dialogViewBinding.dialogAboutText.text = getString(R.string.text_dialog_about, VersionUtil.getVersionName(this), VersionUtil.getVersionCode(this))
+            dialogViewBinding.btnGithub.setOnClickListener {
+                startURL(getString(R.string.link_source))
+            }
+            AlertDialog.Builder(this)
+                    .setView(dialogViewBinding.root)
+                    .show()
+        }
+        return false
     }
 }

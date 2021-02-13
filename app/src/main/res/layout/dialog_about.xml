@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:padding="16dp"
+    tools:ignore="UseCompoundDrawables">
+
+    <ImageView
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:src="@mipmap/ic_launcher" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textColor="?android:textColorPrimary"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/dialog_about_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:textColor="?android:textColorSecondary"
+            android:textStyle="bold" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_github"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:insetTop="6dp"
+            android:insetBottom="0dp"
+            android:minHeight="0dp"
+            android:text="@string/btn_source"
+            android:textColor="?colorSecondary"
+            app:cornerRadius="100dp"
+            app:icon="@drawable/ic_logo_github"
+            app:iconSize="24sp"
+            app:iconTint="?colorSecondary"
+            app:rippleColor="?colorSecondary"
+            app:strokeColor="?colorSecondary" />
+    </LinearLayout>
+</LinearLayout>

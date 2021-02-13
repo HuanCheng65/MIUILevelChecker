@@ -28,4 +28,9 @@
     <string name="text_ram_info">%dGB 运行内存</string>
     <string name="title_dialog_not_miui">您似乎没有使用 MIUI 系统</string>
     <string name="text_dialog_not_miui">本软件的检测结果仅适用于正在使用 MIUI 系统的手机。</string>
+    <string name="title_about">关于</string>
+    <string name="text_dialog_about">版本： %1$s(%2$d)\n帮助你查看自己的机型在 MIUI 12.5 上的分级。</string>
+    <string name="link_source" translatable="false">https://github.com/HuanCheng65/MIUILevelChecker</string>
+    <string name="btn_source">Github</string>
+    <string name="btn_coolapk">coolapk</string>
 </resources>
