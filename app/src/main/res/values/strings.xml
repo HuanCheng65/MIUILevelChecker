@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">DeviceLevelChecker</string>
+    <string name="app_name">MIUILevelChecker</string>
     <string name="xposed_description">模块激活后，可以为您强行开启 MIUI 12.5 的完整动画</string>
     <string name="title_device_info">设备信息</string>
     <string name="status_title_full">完整支持</string>
