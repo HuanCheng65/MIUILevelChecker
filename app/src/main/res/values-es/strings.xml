@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">MIUILevelChecker</string>
+    <string name="xposed_description">Una vez activado el módulo, puede activar a la fuerza la animación completa de MIUI 12.5</string>
+    <string name="title_device_info">Información del dispositivo</string>
+    <string name="status_title_full">Soporte total</string>
+    <string name="status_title_basic">Soporte parcial</string>
+    <string name="status_title_none">Sin soporte</string>
+    <string name="status_title_unknown">Desconocido</string>
+    <string name="status_text_full">Su dispositivo es compatible con la animación completa de MIUI 12.5</string>
+    <string name="status_text_basic">Su dispositivo solo admite animaciones parciales de MIUI 12.5</string>
+    <string name="status_text_none">Su dispositivo no es compatible con la animación de MIUI 12.5</string>
+    <string name="status_text_unknown">No se puede obtener el nivel de su dispositivo</string>
+    <string name="level_text_high_end">Gama Alta</string>
+    <string name="level_text_middle">Gama Media</string>
+    <string name="level_text_primary">Gama Baja</string>
+    <string name="level_text_unknown">Desconocido</string>
+    <string name="miui_lite_yes">MIUI Lite</string>
+    <string name="miui_lite_no">MIUI normal</string>
+    <string name="title_miui_level_info">Clasificación del modelo MIUI</string>
+    <string name="title_xposed_module_enabled">El módulo Xposed está habilitado</string>
+    <string name="title_xposed_module_actived_not_enabled">El módulo Xposed está activado, pero no funcionando</string>
+    <string name="title_xposed_module_not_actived">El módulo Xposed no está activado</string>
+    <string name="title_dialog_whats_this">¿Que es esto?</string>
+    <string name="text_xposed_module_enabled"><![CDATA[La animación completa de MIUI 12.5 se ha abierto a la fuerza para ti.<br /><strong>Nota: debido a las limitaciones de rendimiento del dispositivo, algunas animaciones pueden provocar bloqueos.</strong>]]></string>
+    <string name="text_xposed_module_not_enabled"><![CDATA[Una vez que el módulo está habilitado, puede activar a la fuerza la animación completa de MIUI 12.5.<br />Toque aquí para ir al administrador Xposed y habilitar el módulo.<br /><strong>Nota: debido a las limitaciones de rendimiento del dispositivo, algunas animaciones pueden provocar bloqueos.</strong>]]></string>
+    <string name="btn_ok">Vale</string>
+    <string name="text_dialog_miui_lite_help">MIUI puede marcar algunos modelos como versión \"Lite\" (aquí traducida como "versión reducida"). Los dispositivos marcados como versión lite se considerarán dispositivos de "gama baja" independientemente de su rendimiento, y la mayoría de ellos tienen animación desactivada.</string>
+    <string name="text_ram_info">%dGB Memoria RAM</string>
+    <string name="title_dialog_not_miui">Parece que no estás usando MIUI</string>
+    <string name="text_dialog_not_miui">Los resultados de detección de este software solo se aplican a teléfonos móviles que utilizan el sistema MIUI.</string>
+    <string name="title_about">Acerca de</string>
+    <string name="text_dialog_about">Versión: %1$s(%2$d)\nTe ayuda a verificar la calificación MIUI 12.5 de tu modelo.</string>
+    <string name="link_source" translatable="false">https://github.com/HuanCheng65/MIUILevelChecker</string>
+    <string name="btn_source">Github</string>
+    <string name="btn_coolapk">coolapk</string>
+</resources>
