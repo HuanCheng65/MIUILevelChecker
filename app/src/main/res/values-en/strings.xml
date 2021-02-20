@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">MIUILevelChecker</string>
+    <string name="xposed_description">After the module is activated, you can forcibly activate the full animation of MIUI 12.5</string>
+    <string name="title_device_info">Device Info</string>
+    <string name="status_title_full">Full support</string>
+    <string name="status_title_basic">Partial support</string>
+    <string name="status_title_none">Without support</string>
+    <string name="status_title_unknown">Unknown</string>
+    <string name="status_text_full">Your device supports MIUI 12.5 full animation</string>
+    <string name="status_text_basic">Your device only supports MIUI 12.5 partial animations</string>
+    <string name="status_text_none">Your device does not support MIUI 12.5 animation</string>
+    <string name="status_text_unknown">Unable to get the level of your device</string>
+    <string name="level_text_high_end">High range</string>
+    <string name="level_text_middle">Mid-range</string>
+    <string name="level_text_primary">Low range</string>
+    <string name="level_text_unknown">Unknown</string>
+    <string name="miui_lite_yes">MIUI Lite Edition</string>
+    <string name="miui_lite_no">MIUI Normal Edition</string>
+    <string name="title_miui_level_info">MIUI model classification</string>
+    <string name="title_xposed_module_enabled">Xposed module is enabled</string>
+    <string name="title_xposed_module_actived_not_enabled">Xposed module is actived but not enabled</string>
+    <string name="title_xposed_module_not_actived">Xposed module is not activated</string>
+    <string name="title_dialog_whats_this">What is this?</string>
+    <string name="text_xposed_module_enabled"><![CDATA[MIUI 12.5 full animation has been forcibly opened for you.<br /><strong>Note: Due to device performance limitations, some animations may cause hangs.</strong>]]></string>
+    <string name="text_xposed_module_not_enabled"><![CDATA[Once the module is enabled, you can forcibly activate MIUI 12.5 full animation.<br />Tap here to go to Xposed manager and enable the module.<br /><strong>Note: Due to device performance limitations, some animations may cause hangs.</strong>]]></string>
+    <string name="btn_ok">OK</string>
+    <string name="text_dialog_miui_lite_help">MIUI may mark some models as \"Lite\" version. Devices marked as lite version will be considered "low-end" devices regardless of performance, and most of them have animation disabled.</string>
+    <string name="text_ram_info">%dGB RAM</string>
+    <string name="title_dialog_not_miui">It seems that you are not using MIUI</string>
+    <string name="text_dialog_not_miui">The detection results of this software only apply to mobile phones using the MIUI system.</string>
+    <string name="title_about">About</string>
+    <string name="text_dialog_about">Version: %1$s(%2$d)\nIt helps you to check the MIUI 12.5 rating of your model.</string>
+    <string name="link_source" translatable="false">https://github.com/HuanCheng65/MIUILevelChecker</string>
+    <string name="btn_source">Github</string>
+    <string name="btn_coolapk">coolapk</string>
+</resources>
