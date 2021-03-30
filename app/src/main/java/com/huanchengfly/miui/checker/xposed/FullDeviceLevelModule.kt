@@ -8,7 +8,8 @@ import de.robv.android.xposed.callbacks.XC_LoadPackage
 
 class FullDeviceLevelModule : IXposedHookLoadPackage {
     override fun handleLoadPackage(packageParam: XC_LoadPackage.LoadPackageParam) {
-        if (SELF_PACKAGE_NAME == packageParam.packageName) {
+        val pkgName = packageParam.packageName
+        if (SELF_PACKAGE_NAME == pkgName) {
             val clazz =
                 XposedHelpers.findClassIfExists(
                     "$SELF_PACKAGE_NAME.utils.XposedUtil",
@@ -19,7 +20,7 @@ class FullDeviceLevelModule : IXposedHookLoadPackage {
                 "isModuleEnabled",
                 XC_MethodReplacement.returnConstant(true)
             )
-        } else if (packageParam.packageName.contains("miui") || packageParam.packageName.contains("xiaomi")) {
+        } else if ("miui" in pkgName || "xiaomi" in pkgName) {
             val clazz =
                 XposedHelpers.findClassIfExists(
                     MIUIX_DEVICE_UTILS_CLASS_NAME,
