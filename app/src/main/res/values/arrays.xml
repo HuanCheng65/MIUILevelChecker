@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="xposedscope">
+        <item>com.miui.screenrecorder</item>
+        <item>com.xiaomi.vipaccount</item>
+        <item>com.miui.miwallpaper.miweatherwallpaper</item>
+        <item>com.miui.backup</item>
+        <item>com.miui.huanji</item>
+        <item>com.miui.hybrid</item>
+        <item>com.miui.securitycore</item>
+        <item>com.miui.compass</item>
+        <item>com.miui.aod</item>
+        <item>com.miui.voicetrigger</item>
+        <item>com.xiaomi.mirror</item>
+        <item>com.miui.audiomonitor</item>
+        <item>com.miui.calculator</item>
+        <item>com.miui.weather2</item>
+        <item>com.xiaomi.scanner</item>
+        <item>com.miui.home</item>
+    </string-array>
+</resources>
